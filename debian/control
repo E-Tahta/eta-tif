@@ -1,0 +1,13 @@
+Source: eta-tif
+Section: utils
+Priority: optional
+Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://pardus.org.tr
+
+Package: eta-tif
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, at-spi2-core, eta-keyboard, libatk-adaptor, libgail-common, libglib2.0-bin, python-pyatspi, python-pyatspi2, qt-at-spipython
+Description: Etkileşimli Tahta Sanal Klavyesi için ATSPI client 
+ Basitçe çoğu text inputlarını yakalar ve klavyeyi görünür kılar.
