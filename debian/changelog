@@ -1,3 +1,9 @@
+eta-tif (0.2.1) unstable; urgency=medium
+
+  * Fix dependency problem
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 09 Oct 2017 18:08:28 +0300
+
 eta-tif (0.2.0) unstable; urgency=medium
 
   * Initial release.
