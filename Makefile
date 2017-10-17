@@ -7,7 +7,7 @@ install:
 	mkdir -p $(DESTDIR)/usr/share/eta/eta-tif
 	install -m 0755 $(PYTHON_FILE) $(DESTDIR)/usr/share/eta/eta-tif
 	mkdir -p $(DESTDIR)/usr/bin
-	cd $(DESTDIR)/usr/bin && ln -s $(DESTDIR)/usr/share/eta/eta-tif/$(PYTHON_FILE) eta-tif
+	cd $(DESTDIR)/usr/bin && ln -s /usr/share/eta/eta-tif/$(PYTHON_FILE) eta-tif
 
 	mkdir -p $(DESTDIR)/etc/xdg/autostart
 	install -m 0644 $(DESKTOP_FILE) $(DESTDIR)/etc/xdg/autostart
