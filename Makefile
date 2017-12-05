@@ -1,7 +1,10 @@
-INSTALL=install -m 0644
 PYTHON_FILE=eta-tif.py
 DESKTOP_FILE=eta-tif-autostart.desktop
 X_SESSION_FILE=99eta-a11y
+
+all:
+
+clean:
 
 install: 
 	mkdir -p $(DESTDIR)/usr/share/eta/eta-tif
